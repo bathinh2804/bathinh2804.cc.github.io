@@ -1,0 +1,114 @@
+.category1-2 {
+  border-radius: 5px;
+  background-color: rgb(254, 254, 255);
+  padding-bottom: 1.2rem;
+  z-index: 2;
+
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+
+.category_heading1 {
+  font-size: 2rem;
+  padding: 10px 16px;
+  border: 1px solid;
+  cursor: pointer;
+  width: 341px;
+  position: relative;
+}
+
+.category_heading-icon {
+  font-size: 1.6rem;
+  margin-right: 4px;
+
+  top: -1px;
+}
+.category_heading-icon1 {
+  position: absolute;
+  right: 30px;
+  top: 30%;
+  font-size: 2rem;
+  transition: ease-in-out 1s;
+}
+.category_heading-icon2 {
+  position: absolute;
+  right: 30px;
+  top: 30%;
+  font-size: 2rem;
+  display: none;
+}
+.category_heading-icon1.hide {
+  display: none;
+}
+.category_heading-icon2.show {
+  display: block;
+}
+.category_list1 {
+  padding: 0 0px 8px 0;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  animation: modalFadenIn ease 0.6s;
+}
+.category_item a {
+  padding: 10px 70px;
+}
+
+.category_item-link1 {
+  /* position: relative; */
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 4px 16px;
+  display: block;
+
+  color: rgb(40, 218, 69);
+}
+.category_item-link12 {
+  /* position: relative; */
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 4px 16px;
+  display: block;
+
+  color: #000;
+}
+.category_item-link:hover {
+  color: var(--hong-color);
+  background-color: rgb(211, 207, 207);
+  border-radius: 10px;
+  border: 0.2px solid black;
+}
+.lh_content {
+  margin-top: 3rem;
+  margin-left: 40px;
+  width: 870px;
+  text-align: justify;
+  font-size: 2rem;
+}
+.lh_content h2 {
+  font-size: 3rem;
+}
+
+.sub_menu2 > li > a::before {
+  content: "↪";
+  padding-right: 5px;
+}
+.lh_content-container-1 {
+  background: #fffcfc;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px 0 10px;
+}
+.lh_content-container-1 h3 {
+  color: #f37021;
+}
+.lh_content-container-1 p {
+  margin-left: 5rem;
+}
+display:-webkit-box;
+-webkit-line-clamp:1;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+word-break: break-word;

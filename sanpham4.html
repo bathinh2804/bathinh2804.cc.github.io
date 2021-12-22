@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/trangchu.css" />
+    <link rel="stylesheet" href="./asset/css/base.css" />
+    <link rel="stylesheet" href="./asset/css/dki.css" />
+    <link rel="stylesheet" href="./asset/css/sanpham.css" />
+    <script type="text/javascript" src="./asset/js/jquery.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./asset/fonts/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="grid__full-width">
+      <div class="header_panner-container">
+        <div class="header_panner panner-js">
+          <a href="#"><img src="./asset/img/baner/paner.png" cl alt="" /></a>
+          <a href="#"><img src="./asset/img/baner/paner1.jpg" cl alt="" /></a>
+          <a href="#"><img src="./asset/img/baner/paner2.jpg" cl alt="" /></a>
+          <a href="#"><img src="./asset/img/baner/paner3.jpg" cl alt="" /></a>
+        </div>
+        <div class="header_panner-icon">
+          <i class="fas fa-chevron-left left-btn-js"></i>
+          <i class="fas fa-chevron-right right-btn-js"></i>
+        </div>
+      </div>
+      <div class="header_content">
+        <nav class="header__navbar">
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item header__navbar-item-separate">
+              Vào cửa hàng trên ứng dụng shop
+            </li>
+            <li class="header__navbar-item">
+              <span class="header__navbar-title--no-pointer">Kết Nối</span>
+              <a href="" class="header__navbar-item-link"
+                ><i class="header__navba-icon fab fa-facebook"></i
+              ></a>
+              <a href="" class="header__navbar-item-link"
+                ><i class="header__navba-icon fab fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item">
+              <a href="" class="header__navbar-item-link"
+                ><i class="header__navba-icon fas fa-bell"></i>Thông Báo</a
+              >
+            </li>
+            <li class="header__navbar-item">
+              <a href="" class="header__navbar-item-link"
+                ><i class="header__navba-icon far fa-question-circle"></i>Trợ
+                Giúp</a
+              >
+            </li>
+            <li
+              class="
+                header__navbar-item
+                header__navbar-item-strong
+                header__navbar-item-separate
+              "
+            >
+              <button class="btn js-btn">Đăng Ký</button>
+            </li>
+            <li class="header__navbar-item header__navbar-item-strong">
+              <button class="btn js-btn1">Đăng Nhập</button>
+            </li>
+          </ul>
+        </nav>
+        <div class="header_width-search">
+          <div class="logo">
+            <a href="">
+              <img
+                src="./asset/img/logo/Fover ALONE (1).png"
+                alt=""
+                class="logo-img"
+              />
+            </a>
+          </div>
+          <div class="header_seach">
+            <input
+              type="text"
+              class="header_seach-input"
+              placeholder="Tìm Kiếm"
+            />
+            <button class="header_seach-btn">
+              <i class="header_seach-icon fas fa-search"></i>
+            </button>
+          </div>
+
+          <div class="header_cart">
+            <a href="">
+              <i class="header_cart-icon fas fa-shopping-cart"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div id="menu" class="header_menu">
+        <nav class="menu_dmuc">
+          <ul class="main_menu">
+            <li>
+              <a href=""><i class="fas fa-bars"></i>Danh Mục</a>
+              <ul class="menu-1">
+                <li class="menu_laptop">
+                  <a href="">Laptop,Máy Tính Xách Tay</a>
+                </li>
+                <li class="menu_pc">
+                  <a href="">PC Gaming,Streaming </a>
+                </li>
+                <li class="menu_pk"><a href="">Phụ Kiện Máy Tính</a></li>
+                <li class="menu_lk"><a href="">Link Kiện Máy tính</a></li>
+                <li class="menu_tbm"><a href=""> Thiết Bị Mạng</a></li>
+                <li class="menu_khac"><a href="">Khác</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <nav class="menu_phai">
+          <h2><a href="trangchu.html">Trang Chủ</a></h2>
+          <h2><a href="sanpham.html" class="spp">Sản Phẩm</a></h2>
+          <h2><a href="">Chính Sách Đổi Trả</a></h2>
+          <h2><a href="">Chính Sách Thanh Toán</a></h2>
+          <h2><a href="">Chính Sách Bảo Hành</a></h2>
+          <h2><a href="">Chính Sách Giao Hàng</a></h2>
+          <h2><a href="">Liên Hệ</a></h2>
+        </nav>
+      </div>
+    </header>
+    <div class="main">
+      <div class="header_main">
+        <div class="grid">
+          <div class="grid__row">
+            <div class="grid__column-2">
+              <nav class="category1">
+                <h3 class="category_heading">
+                  <i class=".category_heading-icon fas fa-star"></i>
+                  Danh Mục LapTop
+                  <i class=".category_heading-icon fas fa-star"></i>
+                </h3>
+                <ul class="category_list">
+                  <li class="category_item">
+                    <a href="sanpham1.html" class="category_item-link ">LapTop ASUS</a>
+                  </li>
+                  <li class="category_item">
+                    <a href="sanpham2.html" class="category_item-link">LapTop Acer</a>
+                  </li>
+                  <li class="category_item">
+                    <a href="sanpham3.html" class="category_item-link">LapTop MSI</a>
+                  </li>
+                  <li class="category_item">
+                    <a href="sanpham4.html" class="category_item-link aaaa aaaa3">LapTop Lenovo</a>
+                  </li>
+                  <li class="category_item">
+                    <a href="sanpham5.html" class="category_item-link">LapTop HP</a>
+                  </li>
+                  <li class="category_item">
+                    <a href="sanpham6.html" class="category_item-link">LapTop Gigabyte</a>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="category2">
+                <h3 class="category_heading">
+                  <i class=".category_heading-icon fas fa-star"></i>
+                  Sắp Xếp Theo GIá
+                  <i class=".category_heading-icon fas fa-star"></i>
+                </h3>
+                <ul class= "gia__gia">
+                    <li >
+                        <label for="filter-less-100">
+                        <input  type="radio" id="filter-less-100" name="filter-price" value="0-100000">
+                    
+                        Giá dưới 100.000đ
+                        </label>
+                    </li>
+                    <li >
+                        <label for="filter-100-200">
+                        <input  type="radio" id="filter-100-200" name="filter-price" value="100000-200000">
+                      
+                        100.000đ - 200.000đ
+                        </label>
+                    </li>
+                    <li >
+                        <label for="filter-200-300">
+                        <input  type="radio" id="filter-200-300" name="filter-price" value="200000-300000">
+                       
+                        200.000đ - 300.000đ
+                        </label>
+                    </li>
+                    <li >
+                        <label for="filter-300-500">
+                        <input  type="radio" id="filter-300-500" name="filter-price" value="300000-500000">
+                        
+                        300.000đ - 500.000đ
+                        </label>
+                    </li>
+                    <li >
+                        <label for="filter-500-1000">
+                        <input  type="radio" id="filter-500-1000" name="filter-price" value="500000-1000000">
+                       
+                        500.000đ - 1.000.000đ
+                        </label>
+                    </li>
+                    <li >
+                        <label for="filter-greater-1000">
+                        <input  type="radio" id="filter-greater-1000" name="filter-price" value="1000000-greater">
+                     
+                        Giá trên 1.000.000đ 
+                        </label>
+                    </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="grid__column-11">
+                <div class="home-filter">
+                    <span class="home-filter__label">
+                        Sắp Xếp Theo
+                    </span>
+                    <button class="btn-filter">Phổ Biến</button>
+                    <button class="btn-filter">Mới Nhất</button>
+                    <button class="btn-filter">Bán Chạy</button>
+                    <div class="select-input">
+                        <span class="select-input__label">
+                            Giá
+                        </span>
+                        <i class ="select-input__icon fas fa-angle-down"></i>
+                        <ul class="select-input__list">
+                            <li class="select-input__item">
+                                <a href="" class="select-input__link">Giá: Thấp đến Cao</a>
+                               
+                            </li>
+                            <li class="select-input__item">
+
+                                <a href="" class="select-input__link">Giá: Cao đến Thấp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="home-product">
+                    <div class="grid__row">
+                        <div class="grid__column-2-6">
+                            <div class="slider-product-one-content-item1">
+                                <img
+                                  src="./asset/img/macbook-pro-m1-2020-gray-600x600.jpg"
+                                  alt=""
+                                />
+                                <div class="slider-product-one-content-item-text">
+                                  <li>
+                                    <img src="./asset/img/logo/icon1-50x50.png" alt="" />
+                                    <p>Trợ Giá Mùa Dịch</p>
+                                  </li>
+                                  <li>MacBook Pro M1 2020</li>
+                                  <li>Online giá rẻ</li>
+                                  <li><a href="">34.990.000₫</a></li>
+                                  <li>33.490.000₫</li>
+                                  <li>Quà 400.000đ</li>
+                                  <li>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                  </li>
+                                  <div class="btn_main">
+                                    <button class="btn_n">
+                                      <a href=""
+                                        >Thêm Sản Phẩm <i class="fas fa-shopping-cart"></i
+                                      ></a>
+                                    </button>
+                                    <button class="btn_nn">
+                                      <a href="">Xem Thêm<i class="fas fa-eye"></i></a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="grid__column-2-6">
+                            <div class="slider-product-one-content-item1">
+                                <img
+                                  src="./asset/img/macbook-pro-m1-2020-gray-600x600.jpg"
+                                  alt=""
+                                />
+                                <div class="slider-product-one-content-item-text">
+                                  <li>
+                                    <img src="./asset/img/logo/icon1-50x50.png" alt="" />
+                                    <p>Trợ Giá Mùa Dịch</p>
+                                  </li>
+                                  <li>MacBook Pro M1 2020</li>
+                                  <li>Online giá rẻ</li>
+                                  <li><a href="">34.990.000₫</a></li>
+                                  <li>33.490.000₫</li>
+                                  <li>Quà 400.000đ</li>
+                                  <li>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                  </li>
+                                  <div class="btn_main">
+                                    <button class="btn_n">
+                                      <a href=""
+                                        >Thêm Sản Phẩm <i class="fas fa-shopping-cart"></i
+                                      ></a>
+                                    </button>
+                                    <button class="btn_nn">
+                                      <a href="">Xem Thêm<i class="fas fa-eye"></i></a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="grid__column-2-6">
+                            <div class="slider-product-one-content-item1">
+                                <img
+                                  src="./asset/img/macbook-pro-m1-2020-gray-600x600.jpg"
+                                  alt=""
+                                />
+                                <div class="slider-product-one-content-item-text">
+                                  <li>
+                                    <img src="./asset/img/logo/icon1-50x50.png" alt="" />
+                                    <p>Trợ Giá Mùa Dịch</p>
+                                  </li>
+                                  <li>MacBook Pro M1 2020</li>
+                                  <li>Online giá rẻ</li>
+                                  <li><a href="">34.990.000₫</a></li>
+                                  <li>33.490.000₫</li>
+                                  <li>Quà 400.000đ</li>
+                                  <li>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                  </li>
+                                  <div class="btn_main">
+                                    <button class="btn_n">
+                                      <a href=""
+                                        >Thêm Sản Phẩm <i class="fas fa-shopping-cart"></i
+                                      ></a>
+                                    </button>
+                                    <button class="btn_nn">
+                                      <a href="">Xem Thêm<i class="fas fa-eye"></i></a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="grid__column-2-6">
+                            <div class="slider-product-one-content-item1">
+                                <img
+                                  src="./asset/img/macbook-pro-m1-2020-gray-600x600.jpg"
+                                  alt=""
+                                />
+                                <div class="slider-product-one-content-item-text">
+                                  <li>
+                                    <img src="./asset/img/logo/icon1-50x50.png" alt="" />
+                                    <p>Trợ Giá Mùa Dịch</p>
+                                  </li>
+                                  <li>MacBook Pro M1 2020</li>
+                                  <li>Online giá rẻ</li>
+                                  <li><a href="">34.990.000₫</a></li>
+                                  <li>33.490.000₫</li>
+                                  <li>Quà 400.000đ</li>
+                                  <li>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                  </li>
+                                  <div class="btn_main">
+                                    <button class="btn_n">
+                                      <a href=""
+                                        >Thêm Sản Phẩm <i class="fas fa-shopping-cart"></i
+                                      ></a>
+                                    </button>
+                                    <button class="btn_nn">
+                                      <a href="">Xem Thêm<i class="fas fa-eye"></i></a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="grid__column-2-6">
+                            <div class="slider-product-one-content-item1">
+                                <img
+                                  src="./asset/img/macbook-pro-m1-2020-gray-600x600.jpg"
+                                  alt=""
+                                />
+                                <div class="slider-product-one-content-item-text">
+                                  <li>
+                                    <img src="./asset/img/logo/icon1-50x50.png" alt="" />
+                                    <p>Trợ Giá Mùa Dịch</p>
+                                  </li>
+                                  <li>MacBook Pro M1 2020</li>
+                                  <li>Online giá rẻ</li>
+                                  <li><a href="">34.990.000₫</a></li>
+                                  <li>33.490.000₫</li>
+                                  <li>Quà 400.000đ</li>
+                                  <li>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                  </li>
+                                  <div class="btn_main">
+                                    <button class="btn_n">
+                                      <a href=""
+                                        >Thêm Sản Phẩm <i class="fas fa-shopping-cart"></i
+                                      ></a>
+                                    </button>
+                                    <button class="btn_nn">
+                                      <a href="">Xem Thêm<i class="fas fa-eye"></i></a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="grid__column-2-6">
+                            <div class="slider-product-one-content-item1">
+                                <img
+                                  src="./asset/img/macbook-pro-m1-2020-gray-600x600.jpg"
+                                  alt=""
+                                />
+                                <div class="slider-product-one-content-item-text">
+                                  <li>
+                                    <img src="./asset/img/logo/icon1-50x50.png" alt="" />
+                                    <p>Trợ Giá Mùa Dịch</p>
+                                  </li>
+                                  <li>MacBook Pro M1 2020</li>
+                                  <li>Online giá rẻ</li>
+                                  <li><a href="">34.990.000₫</a></li>
+                                  <li>33.490.000₫</li>
+                                  <li>Quà 400.000đ</li>
+                                  <li>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                  </li>
+                                  <div class="btn_main">
+                                    <button class="btn_n">
+                                      <a href=""
+                                        >Thêm Sản Phẩm <i class="fas fa-shopping-cart"></i
+                                      ></a>
+                                    </button>
+                                    <button class="btn_nn">
+                                      <a href="">Xem Thêm<i class="fas fa-eye"></i></a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="grid__column-2-6">
+                            <div class="slider-product-one-content-item1">
+                                <img
+                                  src="./asset/img/macbook-pro-m1-2020-gray-600x600.jpg"
+                                  alt=""
+                                />
+                                <div class="slider-product-one-content-item-text">
+                                  <li>
+                                    <img src="./asset/img/logo/icon1-50x50.png" alt="" />
+                                    <p>Trợ Giá Mùa Dịch</p>
+                                  </li>
+                                  <li>MacBook Pro M1 2020</li>
+                                  <li>Online giá rẻ</li>
+                                  <li><a href="">34.990.000₫</a></li>
+                                  <li>33.490.000₫</li>
+                                  <li>Quà 400.000đ</li>
+                                  <li>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                  </li>
+                                  <div class="btn_main">
+                                    <button class="btn_n">
+                                      <a href=""
+                                        >Thêm Sản Phẩm <i class="fas fa-shopping-cart"></i
+                                      ></a>
+                                    </button>
+                                    <button class="btn_nn">
+                                      <a href="">Xem Thêm<i class="fas fa-eye"></i></a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="grid__column-2-6">
+                            <div class="slider-product-one-content-item1">
+                                <img
+                                  src="./asset/img/macbook-pro-m1-2020-gray-600x600.jpg"
+                                  alt=""
+                                />
+                                <div class="slider-product-one-content-item-text">
+                                  <li>
+                                    <img src="./asset/img/logo/icon1-50x50.png" alt="" />
+                                    <p>Trợ Giá Mùa Dịch</p>
+                                  </li>
+                                  <li>MacBook Pro M1 2020</li>
+                                  <li>Online giá rẻ</li>
+                                  <li><a href="">34.990.000₫</a></li>
+                                  <li>33.490.000₫</li>
+                                  <li>Quà 400.000đ</li>
+                                  <li>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                    <i class="icon fas fa-star"></i>
+                                  </li>
+                                  <div class="btn_main">
+                                    <button class="btn_n">
+                                      <a href=""
+                                        >Thêm Sản Phẩm <i class="fas fa-shopping-cart"></i
+                                      ></a>
+                                    </button>
+                                    <button class="btn_nn">
+                                      <a href="">Xem Thêm<i class="fas fa-eye"></i></a>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="grid">
+        <div class="grid__row-2">
+          <div class="grid__column-2-6">
+            <ul class="footer-1">
+              <img
+                src="/asset/img/logo/Fover ALONE (1).png"
+                alt=""
+                class="img-footer"
+              />
+              <li>Cửa hàng laptop PentaTShop</li>
+              <li>Địa chỉ:366 Nguyễn trãi-Quận 10-TP.HCM</li>
+              <li>Điện thoại:0368505826</li>
+              <li>Gmail:.............@gmail.com</li>
+              <img
+                src="./asset/img/logo/ddddd.png"
+                alt=""
+                class="img-footer-1"
+              />
+            </ul>
+          </div>
+          <div class="grid__column-2-6">
+            <ul class="footer-2">
+              <p>Chính sách và bảo hành</p>
+              <li><a href="">Chính sách bảo hành</a></li>
+              <li><a href="">Chính sách Thanh Toán</a></li>
+              <li><a href="">Chính sách Đổi Trả</a></li>
+              <li><a href="">Chính sách Giao Hàng</a></li>
+              <img src="./asset/img/logo/ddd.png" alt="" class="img-footer-2" />
+            </ul>
+          </div>
+          <div class="grid__column-2-6">
+            <ul class="footer-3">
+              <p>Hỗ trợ khách hàng</p>
+              <li><a href="">Chương trình khuyến mại</a></li>
+              <li><a href="">Liên hệ</a></li>
+              <li><a href="">Tìm hiểu về mua trả góp</a></li>
+              <li><a href="">Thông báo giờ làm việc</a></li>
+            </ul>
+          </div>
+          <div class="grid__column-2-6">
+            <div class="footer-4">
+              <p>Penta BCShop</p>
+              <a href="" class=""
+                ><i class="fab fa-facebook"></i>PentaTShop fanpage</a
+              >
+              <a href="" class=""><i class="fab fa-instagram"></i>PentaTShop</a>
+              <a href="" class=""><i class="fab fa-youtube"></i>PentaTShop</a>
+            </div>
+          </div>
+        </div>
+        <div class="byebye">
+          <p>
+            Bản quyền thuộc về cửa hàng PentaTShop.GPKD số 0101760800 do Sở KHĐT
+            TP.HCM cấp ngày 20/10/2021
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div id="sticky-banner">
+      <a href="" target="_blank" class="left">
+        <img src="./asset/img/logo/stk-bn-left.png" width="90"
+      /></a>
+      <a href="" target="_blank" class="right">
+        <img src="./asset/img/logo/stk-bn-right.png" width="90"
+      /></a>
+    </div>
+
+    <div class="modal js-modal">
+      <div class="modal__body js-modal-container">
+        <div class="modal-closeing js-modal-close">
+          <i class="fas fa-times"></i>
+        </div>
+        <form action="" method="POST" class="form" id="form-1">
+          <h3 class="heading">Thành viên đăng ký</h3>
+          <p class="desc">Cùng nhau Đăng Ký Tại ... ❤️</p>
+
+          <div class="spacer"></div>
+
+          <div class="form-group">
+            <label for="fullname" class="form-label">Tên đầy đủ</label>
+            <input
+              id="fullname"
+              name="fullname"
+              type="text"
+              placeholder="VD: Bá Thịnh"
+              class="form-control"
+            />
+            <span class="form-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="text"
+              placeholder="VD: email@domain.com"
+              class="form-control"
+            />
+            <span class="form-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="password" class="form-label">Mật khẩu</label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              placeholder="Nhập mật khẩu"
+              class="form-control"
+            />
+            <span class="form-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="password_confirmation" class="form-label"
+              >Nhập lại mật khẩu</label
+            >
+            <input
+              id="password_confirmation"
+              name="password_confirmation"
+              placeholder="Nhập lại mật khẩu"
+              type="password"
+              class="form-control"
+            />
+            <span class="form-message"></span>
+          </div>
+
+          <button class="form-submit">Đăng ký</button>
+        </form>
+      </div>
+    </div>
+    <div class="modal1 js-modal1">
+      <div class="modal1__body js-modal1-container">
+        <div class="modal1-closeing js-modal1-close">
+          <i class="fas fa-times"></i>
+        </div>
+        <form action="" method="POST" class="form" id="form-2">
+          <h3 class="heading">Đăng Nhập Tài KHoản ❤️</h3>
+          <p class="desc">Chúc Bạn Ngày mới Vui vẻ ❤️</p>
+
+          <div class="spacer"></div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input
+              id="email2"
+              name="email"
+              type="text"
+              placeholder="VD: email@domain.com"
+              class="form-control"
+            />
+            <span class="form-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="password" class="form-label">Mật khẩu</label>
+            <input
+              id="password2"
+              name="password"
+              type="password"
+              placeholder="Nhập mật khẩu"
+              class="form-control"
+            />
+            <span class="form-message"></span>
+          </div>
+
+          <button class="form-submit">Đăng Nhập</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./asset/js/dki.js"></script>
+    <script src="./asset/js/dangnhap.js"></script>
+    <script src="./asset/js/validator.js"></script>
+    <script src="./asset/js/paner-header.js"></script>
+    <script src="./asset/js/paner-main.js"></script>
+
+    <script>
+      Validator({
+        form: "#form-1",
+        errorSelector: ".form-message",
+        rules: [
+          Validator.isRequired("#fullname"),
+          Validator.isEmail("#email"),
+          Validator.minLength("#password", 6),
+          Validator.isRequired("#password_confirmation"),
+          Validator.isConfirmed(
+            "#password_confirmation",
+            function () {
+              return document.querySelector("#form-1 #password").value;
+            },
+            "Mật Khẩu Nhập Lại Không Chính Xác"
+          ),
+        ],
+        onSubmit: function (data) {
+          console.log(data);
+        },
+      });
+      Validator({
+        form: "#form-2",
+        errorSelector: ".form-message",
+        rules: [
+          Validator.isEmail("#email2"),
+          Validator.minLength("#password2", 6),
+        ],
+        onSubmit: function (data) {
+          console.log(data);
+        },
+      });
+    </script>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        var $filter = $("#menu");
+        var $filterSpacer = $("<div />", {
+          height: $filter.outerHeight(),
+        });
+        if ($filter.size()) {
+          $(window).scroll(function () {
+            if (
+              !$filter.hasClass("fix") &&
+              $(window).scrollTop() > $filter.offset().top
+            ) {
+              $filter.before($filterSpacer);
+              $filter.addClass("fix");
+            } else if (
+              $filter.hasClass("fix") &&
+              $(window).scrollTop() < $filterSpacer.offset().top
+            ) {
+              $filter.removeClass("fix");
+              $filterSpacer.remove();
+            }
+          });
+        }
+      });
+      //   <!-- cách 2 -->
+      // <!--
+      //   jQuery(document).ready(function ($) {
+      //     $(window).load(function () {
+      //       if ($("#menu").length > 0) {
+      //         var _top =
+      //           $("#menu").offset().top -
+      //           parseFloat($("#menu").css("marginTop").replace(/auto/, 0));
+      //         $(window).scroll(function (evt) {
+      //           var _y = $(this).scrollTop();
+      //           if (_y > _top) {
+      //             $("#menu").addClass("fixed");
+      //             $(".main-1").css("margin-top", "30px");
+      //           } else {
+      //             $("#menu").removeClass("fixed");
+      //             $(".main-1").css("margin-top", "0");
+      //           }
+      //         });
+      //       }
+      //     });
+      //   });
+      // -->
+    </script>
+  </body>
+</html>

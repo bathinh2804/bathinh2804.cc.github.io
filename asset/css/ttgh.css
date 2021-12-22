@@ -1,0 +1,157 @@
+.conter__thongtin {
+  width: 1300px;
+
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+
+  border: 1px solid #d3d3d3;
+  display: flex;
+}
+.conter__form {
+  width: 650px;
+
+  border-right: 1px solid #d3d3d3;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.conter__form h1 {
+  font-size: 3rem;
+}
+.conter__form p {
+  font-size: 1.5rem;
+}
+.conter__form a {
+  font-size: 1.5rem;
+  text-decoration: none;
+
+  color: blue;
+}
+.fornm {
+  margin-right: 2rem;
+}
+.formm-heading {
+  width: 100%;
+  display: flex;
+  height: 30px;
+  font-size: 1.5rem;
+  justify-content: space-between;
+}
+.form_hvt {
+  width: 45%;
+  padding: 8px 10px;
+  border-radius: 3px;
+
+  border: 1px solid #d3d3d3;
+}
+.form_sdt {
+  width: 45%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  border: 1px solid #d3d3d3;
+}
+.formm-contentt {
+  width: 100%;
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  margin-top: 2.3rem;
+}
+.set-icon {
+  width: 30%;
+  position: relative;
+}
+.icon-sert {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+.form_tinh {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  border: 1px solid #d3d3d3;
+}
+.form_huyen {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  border: 1px solid #d3d3d3;
+}
+.form_xa {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  border: 1px solid #d3d3d3;
+}
+
+.formm-footer {
+  width: 100%;
+
+  font-size: 1.5rem;
+
+  margin-top: 2.3rem;
+}
+.form_diachi {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  border: 1px solid #d3d3d3;
+}
+.thanh_toan {
+  margin-top: 3rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.cod {
+  margin-bottom: 2.5rem;
+}
+.stk_stk p {
+  margin-left: 2rem;
+}
+.btn_right {
+  padding: 12px 16px;
+  font-size: 1.5rem;
+  margin-top: 2.3rem;
+  float: right;
+  margin-bottom: 3rem;
+}
+.conter_thongtin-sp {
+  width: 650px;
+
+  margin-right: 2rem;
+}
+.conter_thongtin-spct img {
+  width: 100px;
+  height: 80px;
+}
+.conter_thongtin-spct {
+  padding: 2rem 0;
+  border-bottom: 1px solid #d3d3d3;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  align-items: center;
+}
+.thong_tinn {
+  margin-left: -18rem;
+  margin-top: -25px;
+}
+.conter_thongtin-sptt {
+  border-bottom: 1px solid #d3d3d3;
+  font-size: 2rem;
+}
+.tam_tinh {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tongg {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  align-items: center;
+}

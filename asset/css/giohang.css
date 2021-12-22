@@ -1,0 +1,59 @@
+.content_gio_hang {
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+
+  margin-left: 1rem;
+}
+.title-card {
+  padding-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  padding-top: 10px;
+}
+#cartformpage table {
+  max-width: 100%;
+  width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+#cartformpage table tr {
+  border: 1px solid #f0f0f0;
+}
+#cartformpage table td,
+#cartformpage table th {
+  border-right: 1px solid #f0f0f0;
+  border-left: 1px solid #f0f0f0;
+  text-align: center;
+  padding: 20px 0px;
+}
+#cartformpage a {
+  text-decoration: none;
+  color: black;
+}
+#cartformpage table th {
+  font-size: 2rem;
+}
+#cartformpage table td {
+  font-size: 1.5rem;
+}
+.img_gia {
+  width: 150px;
+  height: 100px;
+}
+.button_gio_hang {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 20px;
+}
+.button-default {
+  padding: 10px 16px;
+  background-color: red;
+  color: white;
+  border-radius: 2px;
+}
+.button-default:hover {
+  background-color: #efe3ac;
+  color: black;
+}

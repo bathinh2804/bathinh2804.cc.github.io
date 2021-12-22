@@ -1,0 +1,179 @@
+.product_container-taital {
+  margin-top: 3rem;
+  background-color: white;
+  margin-bottom: 3rem;
+}
+.product-taital {
+  display: flex;
+  padding-top: 20px;
+}
+.product-taital_img {
+  width: 500px;
+  margin-left: 20px;
+}
+.img-taital {
+  width: 500px;
+  height: 350px;
+  border: 1px solid rgb(161, 161, 161);
+  border-radius: 2px;
+  padding-bottom: 5px;
+}
+.img-taital:hover > img {
+  transform: translateY(20px);
+}
+.img-taital img {
+  width: 495px;
+  height: 300px;
+}
+.img_sub {
+  height: 100px;
+  width: 150px;
+  border: 1px solid rgb(161, 161, 161);
+}
+.img_sub img {
+  width: 100%;
+  height: 100%;
+}
+.product_sub {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.product-taital_container {
+  padding-left: 40px;
+  margin-top: 50px;
+}
+.product-taital_container h3 {
+  font-size: 3.5rem;
+}
+.product-taital_container ul {
+  padding-left: 0;
+}
+.product-taital_container li {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+.product-taital_status {
+  border-radius: 2px;
+  background-color: #f0ad4e;
+  color: white;
+  padding: 2px 5px;
+}
+.product-taital_price {
+  color: red;
+}
+.product_contai {
+  width: 900px;
+  margin-left: 20px;
+  margin-top: 50px;
+  padding-bottom: 5rem;
+}
+.tabs {
+  display: flex;
+  position: relative;
+}
+.tab-item {
+  min-width: 80px;
+  padding: 16px 20px 11px 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #c23564;
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 5px solid transparent;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.tab-item:hover {
+  opacity: 1;
+  background-color: rgba(194, 53, 100, 0.05);
+  border-color: rgba(194, 53, 100, 0.1);
+}
+.tab-item.active {
+  opacity: 1;
+}
+.tab-content {
+  padding: 10px 0;
+  margin-left: 20px;
+}
+.tab-pane {
+  color: #333;
+  display: none;
+}
+.tab-pane.active {
+  display: block;
+}
+.tab-pane h2 {
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+.tab-pane p {
+  font-size: 2rem;
+  text-align: justify;
+}
+.tabs .line {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  border-radius: 15px;
+  background-color: #c23564;
+  transition: all 0.2s ease;
+}
+.gia_price {
+  padding: 12px 20px;
+  background-color: red;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.danh_gia {
+  display: flex;
+}
+.Name_name {
+  margin-left: 2px;
+  margin-right: 15px;
+}
+.form-control1 {
+  font-size: 3rem;
+  width: 43.3rem;
+  height: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+#noi_dung {
+  margin-top: 15px;
+  font-size: 2rem;
+}
+.mail_name {
+}
+.stk-bn-right {
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  font-weight: bold;
+  float: right;
+}
+.comment-1 {
+  margin-top: 30px;
+  border-top: 1px solid grey;
+  width: 100%;
+}
+.date {
+  float: right;
+  margin-right: 10px;
+}
+.name-aa {
+  font-size: 1.5rem;
+  color: #969292;
+}
+.cmt {
+  font-size: 1rem;
+}
